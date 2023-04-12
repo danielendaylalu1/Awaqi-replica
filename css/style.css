@@ -42,16 +42,23 @@ body{
     text-decoration: none;
     line-height: 1;
 }
+.main,.nav-bar{
+    background-color: #f9fafd;
+}
+.main{
+    padding-bottom: 4.5rem;
+    border-bottom-right-radius: 250px;
+}
 .main-box{
     padding-top: 4rem;
 }
-.main-hr{
+.main-hr, .description-hr{
     width: 10%;
     border: 5px solid #FF8B13;
     background-color: #FF8B13;
 }
-.main-small-header{
-    margin-top: 5px;
+.main-small-header, .description-small-header{
+    margin-top: 7px;
     font-size: 1.5rem;
     font-weight: 700;
 }
@@ -62,6 +69,7 @@ body{
 .main-large-header-colored{
     display: block;
     color: #FF8B13;
+    line-height: 1;
 }
 .main-icon{
     font-size: 1.5rem;
@@ -88,4 +96,40 @@ body{
     background-color: #FF8B13;
     margin-top: 20px;
     height: 400px;
+}
+.description-box{
+    padding-top: 9rem;
+}
+.description-small-header{
+    line-height: 1.4;
+    color: #303841;
+    margin-right: 50px;
+}
+.description-box-2{
+    margin-left: 45px;
+}
+.description-img{
+    width: 6rem;
+    margin-top: 20px;
+}
+.description-text{
+    font-size: 0.85rem;
+}
+.description-text-2{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.description-btn{
+    color: white;
+    background-color: #FF8B13;
+    border-radius: 2px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-decoration: none;
+    margin-top: 30px;
+    padding: 12px 25px;
+}
+.description-btn:hover{
+    background-color: #fa8508;
 }
