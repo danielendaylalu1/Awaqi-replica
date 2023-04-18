@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 .container-fluid{
     padding: 1.5% 7%;
@@ -132,4 +133,130 @@ body{
 }
 .description-btn:hover{
     background-color: #fa8508;
+}
+.services{
+    margin-top: 5rem;
+    background-image: url("../images/bg-img.avif");
+    border-top-left-radius: 300px;
+    text-align: center;
+}
+.services-big-header{
+    padding-top: 5rem;
+    color: white;
+    font-weight: 700;
+}
+.services-hr{
+    width: 5%;
+    border: 5px solid #FF8B13;
+    background-color: #FF8B13;
+    margin: 0.5rem auto;
+}
+.services-box{
+    margin-top: 3rem;
+    margin-left: 2rem;
+    text-align: center;
+}
+.box-2{
+    padding: 0 5rem;
+}
+.services-icon{
+    color: white;
+    background-color: #FF8B13;
+    font-size: 2rem;
+    padding: 1.5rem 1.5rem;
+    border-radius: 100%;
+}
+.services-small-header{
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-top: 0.5rem;
+}
+.services-text{
+    color: white;
+    font-weight: lighter;
+    font-size: 0.85rem;
+}
+.testimonials{
+    padding-top: 5rem;
+}
+.testimonials-large-header{
+    font-size: 2.8rem;
+    padding-top: 4rem;
+    color: #3E54AC;
+    font-weight: 900;
+}
+.testimonials-small-header{
+    color: black, 0.8;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 0.5rem;
+}
+.testimonials-text{
+    color: black, 0.8;
+    font-weight: lighter;
+    font-size: 0.85rem;
+    margin-bottom: 30px;
+}
+.testimonials-hr{
+    width: 10%;
+    border: 5px solid #FF8B13;
+    background-color: #FF8B13;
+}
+.testimonials-btn{
+    color: white;
+    background-color: #FF8B13;
+    border-radius: 2px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 12px 25px;
+}
+.testimonials-box-2{
+    padding: 1rem 3rem;
+}
+.carousel-control-prev,
+.carousel-control-next{
+  height: 50px;
+  width: 50px;
+  outline: black;
+  background-size: 100%, 100%;
+  background-image: none;
+  position: absolute;
+  margin-top: 25%;
+}
+.carousel-left, .carousel-right{
+    color: #fa8508;
+    font-size: 1.6rem;
+    margin-top: 50%;
+}
+.carousel-item-box{
+    padding: 0.4rem 1.5rem;
+    width: 70%;
+    margin: 1rem auto;
+    border: 1px solid #303841;
+    border-radius: 10px;
+    /* padding: 2rem ;  */
+}
+.testimonials-img{
+    width: 25%;
+    border-radius: 100%;
+    margin-top: 0.2rem;
+}
+.testimonials-box-header{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 0.2rem;
+    margin-left: 1rem;
+    margin-bottom: 15px;
+}
+.testimonials-box-span{
+    display: block;
+    font-weight: 300;
+    color: #3E54AC;
+}
+.testimonials-box-text{
+    margin-top: 20px;
+    font-size: 0.85rem;
 }
